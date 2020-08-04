@@ -1,0 +1,59 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+.site-header{
+    width: 100%;
+    height: 100%;
+    background:linear-gradient(57deg,#00c6a7,#e5e8ec);
+}
+nav{
+    background-color: rgb(35, 79, 117);
+    display: flex;
+}
+.logo{ width: 50%; height: 100px;}
+
+.logo h1{ color: white; line-height: 100px; padding-left: 50px; te}
+
+.menu{ width: 50%; height: 100px;}
+
+.menu ul{ width: 100%; height: 100px; display: flex; flex-direction: row; justify-content: space-around; align-items: center;}
+
+.menu ul li{ color: white; list-style: none; font-size: 20px; font-weight: bold;}
+
+
+.part-1{ display: flex;}
+.left-side{ width: 45%; height=auto; margin-top: 20px;}
+.left-side img{ width: 465px; height: 350px; margin-left: 90px;margin-top: 30px;}
+
+.right-side{ width: 55%; height: 300px;text-align: center;margin-top: 90px;}
+.right-side h2{font-size: 40px;}
+.right-side p{font-size: 30px;}
+
+.part-2 h3{ font-size: 30px;text-align: center; margin-top: 40px;}
+
+.cards{
+    display:flex;
+    justify-content: space-between;
+}
+
+.btn{background-color: rgb(35, 79, 117) ; color: white; padding: 5px;} 
+
+.part-3{ width: 100%; height: 100vh; background:linear-gradient(57deg,#00c6a7,#021a3a); margin-top: 30px;}
+
+.part-3{ display: flex;}
+.left-side1{ width: 45%; height:auto; margin-top: 20px;}
+.left-side img1{ width: 465px; height: 350px; margin-left: 100px;margin-top: 40px;}
+
+
+.right-side1{margin-top: 40px; margin-left: 30px;}
+.right-side1 h4{font-size: 30px; font-weight: bold; text-align: center;}
+.right-side1 p{font-size: 25px;justify-content: center;}
+
+.bgclr{ background-color: black;}
+.part-4{ display: flex; justify-content: space-between; color: white; margin-top: -10px;margin-bottom: 20px;}
+.one{margin-top: 20px; font-size: 17px;}
+.one h5{font-size: 20px;}
+.two{margin-top: 20px; font-size: 17px; list-style: none;}
+.two h5{font-size: 20px;}
+.three{margin-top: 20px; font-size: 17px;}
+.three h5{font-size: 20px;}
+
+.end p{text-align: center; color:white:}
